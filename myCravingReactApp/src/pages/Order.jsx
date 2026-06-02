@@ -5,7 +5,7 @@ import restaurant2 from "../assets/restaurant2.webp";
 import restaurant3 from "../assets/restaurant3.avif";
 import windnWave from "../assets/windsRes.jpg";
 
-function Order () {
+function Order() {
   return (
     <>
       <main>
@@ -25,20 +25,20 @@ function Order () {
 
         {/* <!-- Restaurants --> */}
         <section
-          className="restaurant-card py-5 md:py-5 d-flex justify-content-center"
+          className="restaurant-card py-5 d-flex justify-content-center"
           id="order-now-bg"
         >
-          <div className="container px-5" id="restaurant-div">
+          <div className=" px-4" id="restaurant-div">
             <h3 className="card-heading fw-bolder text-black">
               All Restaurants
             </h3>
             <p className="restaurant-available text-black">
               6 restaurants available
             </p>
-            <div className="card-outer d-grid mt-4">
+            <div className="card-outer d-grid mt-4 ">
               {/* <!-- Card 1 --> */}
               <div className="card border-0 rounded-3" id="order-now-all-card">
-                <div className="image position-relative">
+                <div className="position-relative">
                   <img
                     src={restaurant3}
                     alt="image"
@@ -49,9 +49,9 @@ function Order () {
                     3.6
                   </span>
                 </div>
-                <div className="description p-3 border-0">
+                <div className=" p-3 border-0">
                   <h6 className="fw-bolder">Under The Mango Tree</h6>
-                  <p className="">
+                  <p>
                     Enjoy the thrill of grill and barbecue at Under The Mango
                     Tree restaurant at Jehan Numa Palace, Bhopal. Head here now!
                   </p>
@@ -68,7 +68,7 @@ function Order () {
               </div>
               {/* <!-- Card 2 --> */}
               <div className="card border-0 rounded-3" id="order-now-all-card">
-                <div className="image position-relative">
+                <div className=" position-relative">
                   <img
                     src={background}
                     alt="image"
@@ -79,7 +79,7 @@ function Order () {
                     4.8
                   </span>
                 </div>
-                <div className="description p-3 border-0">
+                <div className=" p-3 border-0">
                   <h6 className="fw-bolder">Raj darbar</h6>
                   <p className="">
                     Raj Darbar is a one-of-a-kind Indian restaurant that offers
@@ -99,7 +99,7 @@ function Order () {
               </div>
               {/* <!-- Card 3 --> */}
               <div className="card border-0 rounded-3" id="order-now-all-card">
-                <div className="image position-relative">
+                <div className=" position-relative">
                   <img
                     src={restaurant2}
                     alt="image"
@@ -110,7 +110,7 @@ function Order () {
                     4.1
                   </span>
                 </div>
-                <div className="description p-3 border-0">
+                <div className=" p-3 border-0">
                   <h6 className="fw-bolder">Countryside Culture</h6>
                   <p className="">
                     A hidden gem away from the city, offering lush green meadows
@@ -128,7 +128,7 @@ function Order () {
               </div>
               {/* <!-- Card 4 --> */}
               <div className="card border-0 rounded-3" id="order-now-all-card">
-                <div className="image position-relative">
+                <div className=" position-relative">
                   <img
                     src={rajhans}
                     alt="image"
@@ -139,7 +139,7 @@ function Order () {
                     4.2
                   </span>
                 </div>
-                <div className="description p-3 border-0">
+                <div className=" p-3 border-0">
                   <h6 className="fw-bolder">Raj Hans</h6>
                   <p className="">
                     Bhopal’s legendary food chain, famous for its boofe original
@@ -159,7 +159,7 @@ function Order () {
               </div>
               {/* <!-- Card 5 --> */}
               <div className="card border-0 rounded-3" id="order-now-all-card">
-                <div className="image position-relative">
+                <div className="position-relative">
                   <img
                     src={greenhouse}
                     alt="image"
@@ -170,7 +170,7 @@ function Order () {
                     3.9
                   </span>
                 </div>
-                <div className="description p-3 border-0">
+                <div className=" p-3 border-0">
                   <h6 className="fw-bolder">Green House Bisto</h6>
                   <p className="">
                     Bhopal’s popular vegetarian spot, famous for its affordable
@@ -189,7 +189,7 @@ function Order () {
               </div>
               {/* <!-- Card 6 --> */}
               <div className="card border-0 rounded-3" id="order-now-all-card">
-                <div className="image position-relative">
+                <div className="position-relative">
                   <img
                     src={windnWave}
                     alt="image"
@@ -200,7 +200,7 @@ function Order () {
                     4.5
                   </span>
                 </div>
-                <div className="description p-3 border-0">
+                <div className=" p-3 border-0">
                   <h6 className="fw-bolder">Winds n Waves</h6>
                   <p className="">
                     Winds n Wave is a popular Bhopal restaurant, famous for its
@@ -224,4 +224,4 @@ function Order () {
     </>
   );
 }
-export default Product;
+export default Order;

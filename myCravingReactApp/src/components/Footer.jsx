@@ -1,5 +1,6 @@
 import cravings from "../assets/cravings.png";
 
+
 function Footer() {
   return (
     <>
@@ -17,9 +18,7 @@ function Footer() {
 
               <div className="quick-links d-grid">
                 <h4 className="mb-1 fw-bold">Quick Links</h4>
-                <a href="./index.html">Home</a>
-                <a href="./about.html">About</a>
-                <a href="./order.html">Order Now</a>
+                <a href="../"></a>
               </div>
 
               <div className="quick-links d-grid">

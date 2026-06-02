@@ -185,6 +185,8 @@ body {
   .card-outer {
     grid-template-columns: auto auto auto;
     gap: 30px;
+    width: 100%;
+
   }
 
   .dishes {
@@ -327,10 +329,11 @@ body {
 }
 
 .rating-card,
-#order-now-card,
+#order-now-all-card,
 .our-story,
 .privacy-policy {
   background-color: var(--color-base-100);
+
 }
 
 /* Partner */
