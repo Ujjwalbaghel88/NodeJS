@@ -8,14 +8,21 @@ function Header() {
         id="header"
         className="d-flex justify-content-between align-items-center shadow-md"
       >
-        <img src={image1} className="ms-3 flex-shrink-0" alt="" />
+        <img src={image1} className="ms-3  flex-shrink-0" alt="" />
 
-        <div className="d-flex gap-4">
-          <Link to={"/"}>Home</Link>
-          <Link to={"/about"}>About</Link>
-
-          <Link to={"/contact-us"}>Contact Us</Link>
-          <Link to={"/order"}>Order</Link>
+        <div className="d-flex gap-4  fs-5 fw-bold">
+          <Link to={"/"} className="text-white text-decoration-none">
+            Home
+          </Link>
+          <Link to={"/about"} className="text-white text-decoration-none">
+            About
+          </Link>
+          <Link to={"/contact-us"} className="text-white text-decoration-none">
+            Contact Us
+          </Link>
+          <Link to={"/order"} className="text-white text-decoration-none">
+            Order
+          </Link>
         </div>
 
         <div className="d-flex align-items-center gap-2 mt-2 mt-sm-0">
