@@ -1,6 +1,5 @@
 import cravings from "../assets/cravings.png";
 
-
 function Footer() {
   return (
     <>
