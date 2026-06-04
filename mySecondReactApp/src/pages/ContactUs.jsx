@@ -1,10 +1,10 @@
 function ContactUS() {
   return (
     <>
-     <div className="container d-flex justify-content-center align-items-center">
+      <div className="container d-flex justify-content-center align-items-center">
         <span className="text-primary fs-2">Contact Us</span>
       </div>
     </>
   );
 }
-export default ContactUs;
+export default ContactUS;
