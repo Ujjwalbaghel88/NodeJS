@@ -1,3 +1,4 @@
+
 import cravings from "../assets/cravings.png";
 
 function Footer() {
@@ -5,6 +6,7 @@ function Footer() {
     <>
       <footer>
         <section className="footer-section pt-4 pb-3">
+         
           <div className="footer-div w-100 mt-2 pb-5">
             <p className="text-center">
               --- Your favorite food delivery platform connecting customers with
