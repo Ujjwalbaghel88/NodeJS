@@ -84,11 +84,9 @@ function Home() {
         {/* <!-- Your Favourite Food Section Header niche --> */}
         <section>
           <div className="hero-overlay position-absolute d-flex align-items-center justify-content-center text-center text-light">
-            {/* <!-- <div
-        className="hero-overlay text-center text-black "
-      > --> */}
+            
             <div className="container px-3">
-              {/* <!-- <div className="text-center text-white d-grid gap-1 vw-100"> --> */}
+            
               <h1 className="  ">
                 Your Favorite Food,
                 <br />
@@ -113,7 +111,6 @@ function Home() {
                   Sign Up
                 </button>
 
-               
                 <button
                   id="orderNow"
                   className="text-dark fw-bold p-4 py-2 rounded-3"

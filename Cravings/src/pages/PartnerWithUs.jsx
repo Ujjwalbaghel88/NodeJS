@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import cravings from "../assets/cravings.png";
-
-function Footer() {
+function PartnerWithUs() {
   return (
     <>
       <footer>
@@ -17,17 +16,17 @@ function Footer() {
               </div>
               <div className="quick-links d-grid">
                 <h4 className="mb-1 fw-bold">Quick Links</h4>
-              <div className="d-grid">
+                <div className="d-grid">
                   <Link to="/home">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/order">Order Now</Link>
-              </div>
+                  <Link to="/about">About</Link>
+                  <Link to="/order">Order Now</Link>
+                </div>
               </div>
 
               <div className="quick-links d-grid">
                 <h4 className="mb-1 fw-bold">For Restaurants</h4>
-                <Link to={"/partner"}>Partner With US</Link>
-                {/* <a href="">Restaurant Dashboard</a>  */}
+                {/* <a href="">Partner With Us</a>
+                <a href="">Restaurant Dashboard</a> */}
               </div>
 
               <div className="quick-links d-grid">
@@ -61,4 +60,4 @@ function Footer() {
     </>
   );
 }
-export default Footer;
+export default PartnerWithUs;

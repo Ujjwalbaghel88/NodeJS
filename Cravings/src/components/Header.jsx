@@ -8,10 +8,13 @@ function Header() {
         id="header"
         className="d-flex justify-content-between align-items-center shadow-md"
       >
-        <img src={image1} className="ms-3  flex-shrink-0" alt="" />
+        <Link to={"/home"}>
+          <img src={image1} className="ms-3  flex-shrink-0" alt=""  />
 
+        </Link>
+      
         <div className="d-flex gap-4  fs-5 fw-bold">
-          <Link to={"/"} className="text-white text-decoration-none">
+          <Link to={"/home"} className="text-white text-decoration-none">
             Home
           </Link>
           <Link to={"/about"} className="text-white text-decoration-none">
