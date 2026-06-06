@@ -1,7 +1,9 @@
 import foodtable from "../assets/foodtable.png";
+import { useNavigate } from "react-router-dom";
 // import aboutPage from "../assets/aboutPage.png";
 
 function Login() {
+   const navigate = useNavigate();
   return (
     <>
       <main>

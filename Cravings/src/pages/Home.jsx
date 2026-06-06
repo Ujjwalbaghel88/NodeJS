@@ -8,8 +8,10 @@ import home1 from "../assets/home1.png";
 import home2 from "../assets/home2.jpg";
 import home3 from "../assets/home3.jpg";
 import home4 from "../assets/home4.jpg";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="herosection position-relative">
@@ -103,22 +105,22 @@ function Home() {
                 id="buttonHome"
                 className="mt-5 text-decoration-none d-flex justify-content-center align-items-center gap-3 my-4 flex-wrap"
               >
-                <a href="./register.html">
-                  <button
-                    id="signup"
-                    className="btn text-light p-4 py-2 rounded-3"
-                  >
-                    Sign Up
-                  </button>
-                </a>
-                <a href="./order.html">
-                  <button
-                    id="orderNow"
-                    className="text-dark fw-bold p-4 py-2 rounded-3"
-                  >
-                    Order Now
-                  </button>
-                </a>
+                <button
+                  id="signup"
+                  className="btn text-light p-4 py-2 rounded-3"
+                  onClick={() => navigate("/register")}
+                >
+                  Sign Up
+                </button>
+
+               
+                <button
+                  id="orderNow"
+                  className="text-dark fw-bold p-4 py-2 rounded-3"
+                  onClick={() => navigate("/order")}
+                >
+                  Order Now
+                </button>
               </div>
               {/* <!-- Search --> */}
               <div

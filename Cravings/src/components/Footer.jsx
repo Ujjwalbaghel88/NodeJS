@@ -1,12 +1,11 @@
-
 import cravings from "../assets/cravings.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <>
       <footer>
         <section className="footer-section pt-4 pb-3">
-         
           <div className="footer-div w-100 mt-2 pb-5">
             <p className="text-center">
               --- Your favorite food delivery platform connecting customers with
@@ -19,7 +18,8 @@ function Footer() {
 
               <div className="quick-links d-grid">
                 <h4 className="mb-1 fw-bold">Quick Links</h4>
-                <a href="../"></a>
+               
+               
               </div>
 
               <div className="quick-links d-grid">
