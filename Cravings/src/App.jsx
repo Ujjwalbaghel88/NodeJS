@@ -7,6 +7,8 @@ import ContactUs from "./pages/ContactUs";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Partner from "./pages/PartnerWithUs";
+import Feedback from "./pages/Feedback";
+import HelpCenter from "./pages/HelpCenter";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -24,6 +26,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/order" element={<Order />} />
           <Route path="/partner" element={<Partner />} />
+          <Route path="/feedback" element={<Feedback />} />
+          <Route path="/help-center" element={<HelpCenter />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -27,20 +27,21 @@ function Footer() {
               <div className="quick-links d-grid">
                 <h4 className="mb-1 fw-bold">For Restaurants</h4>
                 <Link to={"/partner"}>Partner With US</Link>
-                {/* <a href="">Restaurant Dashboard</a>  */}
+                <Link to={"/home"}>Restaurant Dashboard</Link>
+                
               </div>
 
               <div className="quick-links d-grid">
                 <h4 className="mb-1 fw-bold">For Riders</h4>
-                {/* <a href="./rider.html">Become a Rider</a>
-                <a href="">Rider Dashboard</a> */}
+              <Link to={"/register"}>Become a Rider</Link>
+                <Link to={"/register"}>Rider Dashboard</Link>
               </div>
 
               <div className="quick-links d-grid">
                 <h4 className="mb-1 fw-bold">Feedback & Support</h4>
-                {/* <a href="./feedback.html">Submit Feedback</a>
-                <a href="./helpcenter.html">Help Center</a>
-                <a href="./contact.html">Contact Us</a> */}
+                  <Link to={"/feedback"}>Share Feedback</Link>
+                <Link to={"/contact-us"}>Contact Us</Link>
+                <Link  to ={"/help-center"}>Help Center</Link>
               </div>
             </div>
           </div>

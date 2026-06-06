@@ -13,7 +13,7 @@ function Header() {
 
         </Link>
       
-        <div className="d-flex gap-4  fs-5 fw-bold">
+        {/* <div className="d-flex gap-4  fs-5 fw-bold">
           <Link to={"/home"} className="text-white text-decoration-none">
             Home
           </Link>
@@ -26,7 +26,7 @@ function Header() {
           <Link to={"/order"} className="text-white text-decoration-none">
             Order
           </Link>
-        </div>
+        </div> */}
 
         <div className="d-flex align-items-center gap-2 mt-2 mt-sm-0">
           <Link
