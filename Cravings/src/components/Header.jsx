@@ -9,10 +9,9 @@ function Header() {
         className="d-flex justify-content-between align-items-center shadow-md"
       >
         <Link to={"/home"}>
-          <img src={image1} className="ms-3  flex-shrink-0" alt=""  />
-
+          <img src={image1} className="ms-3  flex-shrink-0" alt="" />
         </Link>
-      
+
         {/* <div className="d-flex gap-4  fs-5 fw-bold">
           <Link to={"/home"} className="text-white text-decoration-none">
             Home
@@ -45,25 +44,6 @@ function Header() {
           </Link>
         </div>
       </div>
-      {/* <div className="bg-primary-subtle p-2 d-flex justify-content-between align-items-center">
-        <div className="text-primary fs-4 fw-bold">My Company</div>
-
-        <div className="d-flex gap-4">
-          <Link to={"/"}>Home</Link>
-          <Link to={"/about"}>About</Link>
-          <Link to={"/product"}>Product</Link>
-          <Link to={"/contact-us"}>Contact Us</Link>
-        </div>
-
-        <div className="d-flex gap-3">
-          <Link to={"/login"}>
-            <button className="btn btn-outline-primary">Login</button>
-          </Link>
-          <Link to={"/register"}>
-            <button className="btn btn-primary">Register</button>
-          </Link>
-        </div>
-      </div> */}
     </>
   );
 }

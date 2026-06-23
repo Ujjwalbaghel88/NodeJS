@@ -42,9 +42,7 @@ function Feedback() {
                 <option value="">app and Website</option>
                 <option value="">Customer Support</option>
               </select>
-              {/* <!-- <div className="d-flex align-items-center pe-3 input-field pb">
               
-            </div> --> */}
             </div>
 
             <div className="feedback-input gap-2 mb-2 mt-2 d-flex">
